@@ -35,34 +35,8 @@ Ensure you have the following installed:
 Python 3.8+
 MySQL
 Django 3.2+
-Installation
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/ecommerce-website.git  
-cd ecommerce-website  
-Install dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt  
-Configure the database:
 
 Update the settings.py file with your MySQL credentials.
-Run migrations:
-bash
-Copy code
-python manage.py makemigrations  
-python manage.py migrate  
-Start the development server:
-
-bash
-Copy code
-python manage.py runserver  
-Access the application at http://127.0.0.1:8000/.
-
-
 
 Future Enhancements
 Integration with payment gateways.
